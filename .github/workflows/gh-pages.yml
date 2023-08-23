@@ -35,6 +35,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: nikaera/nikaera.github.io
+          external_repository: ysdko/ysdko.github.io
           publish_branch: main
-          cname: nikaera.com
